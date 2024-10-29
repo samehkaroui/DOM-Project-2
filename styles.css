@@ -1,0 +1,36 @@
+/* Centering the content and adding top margin */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Styling the color box */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #bada55; /* Initial color */
+    margin: 20px 0;
+    border-radius: 500px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling the button */
+#change-color-btn {
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #0a9137;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #0056b3;
+}
+body{
+    background-color: rgb(211, 218, 223);
+}
